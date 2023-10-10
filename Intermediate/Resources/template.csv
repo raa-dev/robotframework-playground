@@ -1,0 +1,5 @@
+*** Test Cases ***;${ENDPOINT};${REQ_PARAM};${STATUS};[Documentation];[Tags]
+Single user param 3;${USER_ENDPOINT};3;200;Retrieving external data;File
+Single user param 50;${USER_ENDPOINT};50;404;Retrieving external data;File
+Single user param X;${USER_ENDPOINT};X;404;Retrieving external data;File
+Users list param 2;${USER_ENDPOINT}?page=;2;200;Retrieving users list;File
